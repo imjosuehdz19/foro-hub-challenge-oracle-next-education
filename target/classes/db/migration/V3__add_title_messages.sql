@@ -1,0 +1,1 @@
+alter table topicos add constraint uc_titulo_mensaje unique (titulo, mensaje);
